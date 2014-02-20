@@ -4,8 +4,9 @@ layout : "default"
 
 <h3 id="toc_2">Posts</h3>
 <ul>
-  <li><a href="/posts/a-framework-for-self-learning.html">A Framework For Self Learning</a></li>
-  <li><a href="/posts/milk-tea.html">Milk Tea</a></li>
+  {{# posts.all }}
+    <li><a href="{{ url }}">{{ title }}</a></li>
+  {{/ posts.all }}
 </ul>
 
 <h3 id="toc_2">Projects</h3>
