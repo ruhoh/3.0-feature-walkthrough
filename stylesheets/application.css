@@ -1,0 +1,82 @@
+/* palette:; http://www.colourlovers.com/palette/940927/Acused */
+html, body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  color:#2B364A;
+  font-size: 18px;
+}
+div, p {
+  line-height: 1.5em;
+}
+h4 {
+  margin-bottom: 10px;
+}
+blockquote {
+  margin: 20px 0;
+  padding: 20px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  background-color: #eee;
+  font-size: 0.8em;
+}
+p {
+  margin:0 0 10px 0;
+}
+pre {
+  background-color: #2B364A;
+  padding:10px;
+  overflow: auto;
+}
+code {
+  font-size: 16px;
+  font-family: courier;
+  background-color: #eee;
+  padding:2px 4px; 
+}
+pre code {
+  color: #FCFBE3;
+  padding:0; 
+  background-color: transparent;
+}
+
+.padding {
+  padding:20px;
+}
+.date {
+  color:#21A3A3;
+}
+#wrapper {
+  max-width: 700px;
+  margin:auto;
+}
+#information {
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+#footer {
+  border-top:1px solid #7375A5;
+}
+#logo {
+  float:right;
+  color:#c3d6f7;
+}
+.active a {
+  color:green;
+  background-color: yellow;
+}
+div.break {
+  display: block;
+  height:500px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border:1px dashed #777;
+  text-align: center;
+  line-height: 500px;
+  color:#444;
+}
+.question {
+  padding:2px 4px;
+  background-color: #FFFFCC;
+}
