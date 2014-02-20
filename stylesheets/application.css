@@ -80,3 +80,23 @@ div.break {
   padding:2px 4px;
   background-color: #FFFFCC;
 }
+.pagination ul {
+  list-style:none;
+  margin:40px 0 0 0;
+  padding:0;
+  position: relative;
+}
+.pagination ul li {
+  display:inline-block;
+}
+.pagination ul li:last-child {
+  position:absolute;
+  right:0;
+}
+.pagination ul li a {
+  display:inline-block;
+  text-decoration: none;
+}
+.pagination ul li.disabled a {
+  color:#aaa;
+}
